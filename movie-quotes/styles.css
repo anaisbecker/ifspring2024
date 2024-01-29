@@ -1,0 +1,47 @@
+h1{
+    color: #D02C2C;
+    text-transform:uppercase;
+    font-size:26px;
+}
+
+body{
+    background-color: #181818;
+    font-family: monospace;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+name-text{
+    color:#71D4FF;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align:right;
+    margin-right:25px;
+}
+
+hr{
+    background-color: #2E2E2E;
+}
+
+tr{
+    height: 60px;
+}
+
+td{
+    color: white;
+    font-size: 18px;
+}
+ 
+td:nth-child(1){
+    text-align:right;
+}
+
+td:nth-child(2){
+    text-align:left;
+}
+  
+
