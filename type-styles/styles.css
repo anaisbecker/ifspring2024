@@ -1,0 +1,59 @@
+body{
+    font-family: Ubuntu, sans-serif;
+    margin-left:30px;
+    background-color:#ffffdf;
+}
+h1{
+    color: #37425f;
+    font-size:50px;
+    margin-bottom:10px;
+}
+h2{
+    color: #37425f;
+    font-size:30px;
+}
+h3{
+    color:#37425f;
+    font-size:18px;
+    margin-bottom:0px;
+    font-weight:normal;
+}
+p{
+    color: #66749b;
+    font-size:24px;
+    margin-top:0px;
+}
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style:italic;
+}
+.mspace{
+    letter-spacing:.3em;
+}
+.lspace{
+    letter-spacing:-.06em;
+}
+.upper{
+    text-transform:uppercase;
+}
+.lower{
+    text-transform:lowercase;
+}
+.capital{
+    text-transform:capitalize;
+}
+.under{
+    text-decoration:underline;
+}
+.through{
+    text-decoration:line-through;
+}
+.over{
+    text-decoration:overline;
+}
+div{
+    margin-top:100px;
+    margin-bottom:100px;
+}
