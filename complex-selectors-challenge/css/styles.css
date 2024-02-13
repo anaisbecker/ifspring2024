@@ -1,5 +1,5 @@
 /* Set the margin-bottom of the header to 3rem. */
-h {
+header {
     margin-bottom: 3rem;
 }
 
