@@ -71,13 +71,12 @@ img {
     content: "*";
 }
 
+/* Add the text "* Final Season" on the next line after the Game of Thrones season list. Make it 0.7rem, and color it to be #999. */
 #game-of-thrones .seasons::after {
     content: "* Final Season";
     font-size: 0.7rem;
     color: #999;
 }
-
-/* Add the text "* Final Season" on the next line after the Game of Thrones season list. Make it 0.7rem, and color it to be #999. */
 
 
 
