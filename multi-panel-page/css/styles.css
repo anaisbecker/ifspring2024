@@ -1,0 +1,115 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 11px;
+    line-height: 1; 
+    text-shadow: 2px 2px #000000;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px #000000;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+header {
+    background-image: url(../images/top-bg.jpg);
+    background-size: cover;
+    background-position: right;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    margin: 0;
+    padding: 40px 0 40px 0;
+}
+
+footer {
+    margin: 0;
+    padding: 40px 0 0 114px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section_1 {
+    background-color: rgb(198, 225, 255);
+}
+
+.section_2 {
+    background-color: rgb(254, 212, 255);
+}
+
+.section_3 {
+    background-color: rgb(255, 239, 192);
+    padding: 23px 0 84px 0;
+}
+
+header .column_container {
+    padding: 166px 0 183px 0;
+    text-align: center;
+}
+
+.column_container {
+    margin: auto;
+    width: 960px;
+}
+
+.wrapped {
+    width: 400px; 
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin: 0 0 40px 45px;
+}
+
+.grid {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 12px 24px 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    display: flex;
+    width: 50%;
+    margin:0 0 0 0;
+}
+
+li div {
+    padding-right: 21px;
+}
+
+.section_3 p {
+    text-align: center;
+    padding: 0 120px 0 120px;
+    font-size: 26px;
+}
+
