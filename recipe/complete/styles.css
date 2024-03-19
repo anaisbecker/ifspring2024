@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     background-color: rgb(245, 255, 240);
@@ -7,7 +8,7 @@ h1 {
     font-size: 30px;
     color: white;
     margin: 0;
-    margin-left: 30px;
+    margin-left: 3%;
     vertical-align: bottom;
     font-family: "Raleway", sans-serif;
 }
@@ -16,8 +17,8 @@ h2 {
     margin:0;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    font-weight:bold;
-    margin-left: 40px;
+    font-weight:700;
+    margin-left: 3%;
     margin-top: 20px;
 }
 
@@ -25,7 +26,6 @@ h3 {
     color: rgb(130, 147, 121);
     font-size: 25px;
     margin: 0;
-    margin-top: 0;
     font-weight:normal;
 }
 
@@ -60,7 +60,9 @@ header ul{
 }
 
 table {
+    vertical-align: bottom;
     padding-bottom: 20px;
+    /* padding-left: 30px; */
 }
 
 tr :nth-child(2){
@@ -68,19 +70,19 @@ tr :nth-child(2){
 }
 
 td {
-    padding-left: 20px;
+    padding-left: 30px;
     color: white;
 }
 
 .ing {
-    margin-right: 30px;
-    margin-left: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 #ingredients > ul > li {
     /* background-color: rgb(206, 224, 198); */
-    padding: 20px 10px 20px 10px;
-    margin: 20px 10px 20px 10px;
+    padding: 0px 10px 20px 10px;
+    margin: 0px 10px 20px 10px;
 }
 
 .ing li {
@@ -114,26 +116,26 @@ h2 {
     margin-bottom: 20px;
     /* background-color: rgb(118, 145, 108); */
     /* background-color: rgb(206, 224, 198); */
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 0px;
     padding: 20px 20px 20px 20px;
 }
 
 
 .step img {
-    width: 300px;
+    width: 200px;
     /* height: 350px; */
     object-fit: cover;
-    /* object-position:bottom; */
+    object-position:bottom;
     margin: auto;
-    margin-bottom: 70px;
-    margin-right: 50px;
+    margin-bottom: 6%;
+    /* margin-right: 1%; */
     border: 5px solid #d6ead0;
 }
 
 .step p {
-    margin-right: 50px;
+    margin-right: 3%;
 }
 
 /* .step img:hover {
@@ -143,11 +145,15 @@ h2 {
 } */
 
 #description {
-    margin-bottom: 50px;
+    margin-bottom: 5%;
+}
+
+#description p {
+    margin-left: 2%;
 }
 
 #acknowledgments {
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 
@@ -177,10 +183,10 @@ h2 {
     }
     header ul {
         grid-template-columns: repeat(2, 1fr);
-        margin-right: 30px;
+        margin-right: 3%;
     }
     header ul :nth-child(2) {
-        /* text-align: right; */
+        text-align: right;
         margin-left: auto;
         font-size: 22px;
         /* color: white; */
@@ -190,6 +196,7 @@ h2 {
         display:flex;
     }
     .step img {
-        margin-left: 50px;
+        width: 300px;
+        /* margin-left: 2%; */
     }
 }
