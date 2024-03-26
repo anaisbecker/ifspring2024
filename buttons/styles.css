@@ -257,8 +257,7 @@ a#btn_army {
     margin-top: 100px;
     padding: 10px 25px 0 25px;
     background-color: #000000;
-    border: 3px solid #fffb00;
-    color: #fffb00;
+    color: white;
     font-size: 25px;
     font-family: "gunplay", sans-serif;
     font-weight: 400;
@@ -267,28 +266,9 @@ a#btn_army {
     transition: all .5s;
 }
 
-a#btn_army span:after {
-    
-    font-weight: 400;
-    position: absolute;
-    left: 80%;
-    top: 54%;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-  }
-  
-a#btn_army:hover span {
-    padding-right: 25px;
-}
-  
-a#btn_army:hover span:after {
-    content: '\f005';
-    font-family: "Font Awesome 5 Pro";
+a#btn_army:hover {
     color: #fffb00;
-    opacity: 1;
-    right: 0;
+    border: 3px solid #fffb00;
 }
   
 a#btn_apple {
@@ -351,6 +331,27 @@ a#btn_npr:hover {
 img {
     width: 200px;
 }
+
+a#btn_tesla {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px 15px 200px 15px;
+    font-size: 25px;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    border: solid 5px #f40f0f;
+    transition: border-width 0.6s linear;
+}
+
+a#btn_tesla:hover {
+    border-width: 10px;
+}
+
 
 
 
