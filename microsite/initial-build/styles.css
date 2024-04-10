@@ -1,0 +1,138 @@
+body {
+    background-color: #F3F3F3;
+    margin: 0;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    position: fixed;
+    background-color: #F3F3F3;
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    /* font-family: "magneta", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase; */
+}
+
+nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  nav a {
+    padding: 50% 8px 0px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    /* font-family: "magneta", serif;
+    font-weight: 700;
+    font-style: normal; */
+  }
+
+  nav a:hover {
+    color: #3e3e3e;
+  }
+
+  nav .active {
+    font-weight: 700;
+  }
+
+  .main {
+    margin-left: 300px;
+    margin-right: 350px;
+    padding: 70px 10px;
+    padding-top: 100px;
+  }
+
+  section{
+    padding-top: 200px;
+    padding-bottom: 250px;
+  }
+
+  section#intro{
+    padding-top: 200px;
+    padding-bottom: 250px;
+  }
+
+  section#intro #content {
+    display: flex;
+    align-items: center;
+  }
+
+  #intro #btn_life {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  h2 {
+    /* font-family: "magneta", serif;
+    font-weight: 700;
+    font-style: normal; */
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+
+  img#intro {
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+  }
+
+  .collapsible {
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f3f3f3;
+  }
+
+  button {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .novels {
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  img#life {
+    width: 100%;
+  }
