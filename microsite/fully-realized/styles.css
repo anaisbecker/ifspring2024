@@ -1,0 +1,426 @@
+html, body {
+    background-color: #F3F3F3;
+    margin: 0;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    background-color: #F3F3F3;
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    font-family: "rocky-compressed", serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .1em;
+    font-size: 25px;
+    z-index:1;
+}
+
+nav {
+  display: none;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    margin-top:100px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+nav .container ul {
+  list-style: none;
+}
+
+nav .container ul li {
+  /* display: inline-block; */
+  background: none;
+  margin: 70px 0 70px 0;
+}
+
+nav .container ul li :hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+nav .container ul li a {
+  padding: 0px 8px 0px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  font-family: "rocky-compressed", serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .1em;
+}
+
+nav .container ul li.active a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 70px 10px;
+  padding-top: 100px;
+}
+
+h2 {
+  font-family: "rocky-compressed", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "rocky-compressed", serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: .1em;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "rocky-compressed", serif;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section#intro{
+  /* padding-top: 200px; */
+  /* padding-bottom: 250px; */
+}
+
+section#intro #content {
+  /* display: flex;
+  align-items: center; */
+}
+
+#intro a{
+  display: block;
+  /* margin: auto; */
+  /* margin-top: 100px; */
+  text-align: center;
+}
+
+#intro a:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+img#intro {
+  /* float: left; */
+  width: 250px;
+  margin-bottom: 20px;
+  /* margin-right: 25px; */
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+button {
+  all: unset;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.novels {
+  width: 120px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+img#life {
+  width: 100%;
+}
+
+footer {
+  font-size: 14px;
+  width: 100%;
+  background-color: black;
+  color: #F3F3F3;
+}
+
+footer p {
+  /* margin: 0; */
+}
+
+footer div {
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+#intro p .appear {
+  font-weight: normal;
+}
+
+#decor {
+  display: none;
+  /* float: right;
+  position: relative;
+  z-index: 1; */
+}
+
+img.novels {
+  width: 100px;/* 
+  float: left; */
+}
+
+.book {
+  /* display: flex;
+  align-items: center; */
+}
+
+#ell_decor {
+  float: right;
+  overflow-x: hidden;
+  /* margin-right: -15%; */
+  position: relative;
+  /* margin-top: 150px; */
+}
+
+#views #content{
+  /* display: flex; */
+}
+
+.view_div {
+  /* margin-right: 30px; */
+}
+
+#views #content img {
+  /* margin-right: 30px; */
+  display: none;
+}
+
+
+
+blockquote {
+  position: relative;
+  z-index: 0;
+  /* background: #ddd; */
+  /* margin-right: -10px; */
+}
+
+blockquote:before {
+position: absolute;
+content: open-quote;
+font-size: 5em;
+margin-left: -0.6em;
+margin-top: -0.4em;
+}
+blockquote:after {
+position: absolute;
+content: close-quote;
+font-size: 5em;
+bottom: 0;
+right: 0;
+margin-right: -0.6em;
+margin-bottom: -0.8em;
+}
+blockquote p {
+display: inline;
+font-size: 20px;
+/* font-family: "rocky-compressed", serif;
+font-weight: 400; */
+}
+
+@media (min-width: 480px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  img.novels {
+    width: 200px;
+  }
+  blockquote p {
+    display: inline;
+    font-size: 30px;
+  }
+
+  blockquote:before {
+    font-size: 10em;
+  }
+  blockquote:after {
+    font-size: 10em;
+  }
+  blockquote {
+    position: relative;
+    /* background: #ddd; */
+    margin-right: -50px;
+  }
+
+}
+
+@media (min-width: 640px) {
+  .main {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  nav {
+    display: block;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    top:0;
+    bottom: 0;
+    /* margin: auto; */
+    /* margin-top:100px; */
+}
+nav .container ul {
+  list-style: none;
+}
+
+nav .container ul li {
+  /* display: inline-block; */
+  background: none;
+  /* margin: 70px 0 70px 0; */
+}
+
+nav .container ul li :hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+nav .container ul li a {
+  padding: 0px 8px 0px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  font-family: "rocky-compressed", serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .1em;
+}
+
+nav .container ul li.active a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  .main {
+    margin-left: 300px;
+    margin-right: 350px;
+  }
+  #views #content {
+    display: flex;
+  }
+  #views #content img {
+    display: inline;
+    margin-right: 30px;
+  }
+  .book {
+    display: flex;
+    align-items: center;
+  }
+  img.novels {
+    width: 200px;
+    float: left;
+  }
+  section#intro #content {
+    display: flex;
+    align-items: center;
+  }
+  img#intro {
+    float: left;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+  }
+
+section{
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+#decor {
+  float: right;
+  position: relative;
+  z-index: 1;
+  display:block;
+  width: 25%;
+}
+section#intro{
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+#views {
+  margin-right: -300px;
+}
+
+  
+}
